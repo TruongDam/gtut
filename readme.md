@@ -29,6 +29,8 @@ git pull origin master
 ```
 Chinh sua neu co conflict. Thuc hien thao tac git add, git commit, git pull lai lan nua
 Sau khi check khong co conflict, thuc hien
+```
 git push origin master
+```
 
 Huong dan nay duoc su dung cho branch master
