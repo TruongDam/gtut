@@ -1,20 +1,20 @@
 # Project title
-Note lai viec su dung git mot cach de dang
+Hướng dẫn việc sử dụng git basic
 
 ## Prerequisites
-Da cai dat git command line
+Đã cài đặt git command line
 
 ## Step by step
 Clone 1 project 
 ```
 git clone https://github.com/TruongDam/gtut.git
 ```
-Sau khi clone, check branch cua source
+Sau khi clone, check branch của source
 ```
 git branch
 ```
-=> Check branch hien tai la master
-Sau khi tao edit, add cac file
+=> Check branch hiệnn tại là master
+Sau khi tạo edit, add các file
 ```
 git status
 git add --all 
@@ -22,15 +22,15 @@ or
 git add index.js/ *.js/ folder
 git commit -m "commit file"
 ```
-Sau do check lai su thay doi tu repository
+Sau đó check lại sự thay đổi từ repository
 
 ```
 git pull origin master
 ```
-Chinh sua neu co conflict. Thuc hien thao tac git add, git commit, git pull lai lan nua
-Sau khi check khong co conflict, thuc hien
+Chỉnh sửa nếu có conflict. Thực hiện thao tác git add, git commit, git pull lại lần nữa
+Sau khi check không có conflict, thực hiện
 ```
 git push origin master
 ```
 
-Huong dan nay duoc su dung cho branch master
+Hướng dẫn này được sử dụng cho branch master
