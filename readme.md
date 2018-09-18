@@ -1,4 +1,4 @@
-# Project title
+﻿# Project title
 Hướng dẫn việc sử dụng git basic
 
 ## Prerequisites
@@ -33,4 +33,22 @@ Sau khi check không có conflict, thực hiện
 git push origin master
 ```
 
+Kiểm tra source trên repository có khác với local hay không
+Tại branch đó, fetch source từ origin về
+```
+git fetch origin
+```
+Kiểm tra source tại branch hiện tại với source tại origin/master
+```
+git diff origin/master
+```
+Merge source tại branch hiện tại với source trên remote origin/master
+```
+git merge origin/master
+```
+
+
+
 Hướng dẫn này được sử dụng cho branch master
+
+
