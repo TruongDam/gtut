@@ -33,7 +33,7 @@ Sau khi check không có conflict, thực hiện
 git push origin master
 ```
 
-Kiểm tra source trên repository có khác với local hay không
+##Kiểm tra source trên repository có khác với local hay không
 Tại branch đó, fetch source từ origin về
 ```
 git fetch origin
@@ -46,8 +46,13 @@ Merge source tại branch hiện tại với source trên remote origin/master
 ```
 git merge origin/master
 ```
+##Hiểu về origin master, origin/master
+Trên remote có tên: origin ; sẽ có nhánh master  =>>>> orgin master
+Trên local có 1 branch: origin/master
 
-
+```
+git remote show origin
+```
 
 Hướng dẫn này được sử dụng cho branch master
 
