@@ -13,7 +13,7 @@ Sau khi clone, check branch của source
 ```
 git branch
 ```
-=> Check branch hiệnn tại là master
+=> Check branch hiện tại là master
 Sau khi tạo edit, add các file
 ```
 git status
@@ -33,7 +33,7 @@ Sau khi check không có conflict, thực hiện
 git push origin master
 ```
 
-##Kiểm tra source trên repository có khác với local hay không
+## Kiểm tra source trên repository có khác với local hay không
 Tại branch đó, fetch source từ origin về
 ```
 git fetch origin
@@ -46,13 +46,15 @@ Merge source tại branch hiện tại với source trên remote origin/master
 ```
 git merge origin/master
 ```
-##Hiểu về origin master, origin/master
-Trên remote có tên: origin ; sẽ có nhánh master  =>>>> orgin master
-Trên local có 1 branch: origin/master
+## Hiểu về origin master, origin/master
+origin master : tức trên remote có tên origin, có nhánh master
+origin/master : tức trên local có nhánh origin/master
+[a link](https://stackoverflow.com/questions/10588291/git-branching-master-vs-origin-master-vs-remotes-origin-master/10588561)
 
 ```
 git remote show origin
 ```
+
 
 Hướng dẫn này được sử dụng cho branch master
 
