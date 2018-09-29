@@ -1,5 +1,5 @@
-﻿# Project title
-Hướng dẫn việc sử dụng git basic
+﻿# Introduction
+Guide hướng dẫn sử dụng Git.Những khái niệm cơ bản của git nên tìm hiểu: git clone, git commit, git push, git pull, git fetch, git branch, git remote
 
 [Atlassian Git cheat sheet](https://drive.google.com/open?id=1az95gNa71g5epiu2BL8pskhROyFmA6a3) 
 
@@ -53,7 +53,7 @@ git merge origin/master
 ## Hiểu về origin master, origin/master
 origin master : tức trên remote có tên origin, có nhánh master
 origin/master : tức trên local có nhánh origin/master
-[a link](https://stackoverflow.com/questions/10588291/git-branching-master-vs-origin-master-vs-remotes-origin-master/10588561)
+[link](https://stackoverflow.com/questions/10588291/git-branching-master-vs-origin-master-vs-remotes-origin-master/10588561)
 
 ```
 git remote show origin
