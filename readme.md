@@ -1,5 +1,7 @@
 ﻿# Project title
 Hướng dẫn việc sử dụng git basic
+[Atlassian Git cheat sheet](https://drive.google.com/open?id=1az95gNa71g5epiu2BL8pskhROyFmA6a3)
+[Gitlab Git cheat sheet](https://drive.google.com/file/d/1kPsYJv5byAh-nos6tXcIHZvwBr54UG6X/view?usp=sharing)
 
 ## Prerequisites
 Đã cài đặt git command line
