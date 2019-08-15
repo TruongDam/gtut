@@ -71,8 +71,5 @@ git stash
 git checkout <branch>
 git stash pop
 ```
-git 
-
-```
 
 
