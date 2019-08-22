@@ -62,7 +62,7 @@ git remote show origin
 
 Hướng dẫn này được sử dụng cho branch master
 
-## Undo commit, and save change file into sstash, move them to other branch
+## Undo commit, and save change file into stash, move them to other branch
 ```
 git reset --soft HEAD~1
 git reset <filename>
@@ -70,6 +70,11 @@ git stash clear
 git stash 
 git checkout <branch>
 git stash pop
+```
+## How to show stash list
+```
+git stash list
+git stash show -p stash@{0}
 ```
 
 
