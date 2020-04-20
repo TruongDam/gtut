@@ -95,5 +95,8 @@ git stash pop
 git stash list
 git stash show -p stash@{0}
 ```
-
-
+#### Trouble
+ssh-agent for Windows: 
+```
+https://acloud.guru/forums/serverless-portfolio-with-react/discussion/-LJmN7TC5K8760G3uZXL/ssh-add:%20Error%20connecting%20to%20agent:%20No%20such%20file%20or%20directory
+```
