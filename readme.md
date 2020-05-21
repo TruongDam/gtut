@@ -95,6 +95,11 @@ git stash pop
 git stash list
 git stash show -p stash@{0}
 ```
+## remove branch
+```
+git branch | grep -v "master" | xargs git branch -D 
+```
+
 #### Trouble
 ssh-agent for Windows: 
 ```
